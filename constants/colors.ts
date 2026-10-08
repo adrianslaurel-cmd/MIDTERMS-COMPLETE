@@ -1,14 +1,13 @@
 export const COLORS = {
-  primary: '#C5B3F5',
-  background: '#FAF8FF',
-  card: '#FFFFFF',
-  textPrimary: '#514A5A',
-  textSecondary: '#887F9A',
-  textOnPrimary: '#FFFFFF',
-  surface: '#F0EBFC',
-  border: '#DED4F3',
-  shadow: '#C9BCE0',
-  warning: '#FFD59E',
-  success: '#B8E0C2',
-  danger: '#E8A1B8',
+  primary: '#8A2BE2',      // Mana / Shadow Monarch Aura (Deep Electric Purple)
+  background: '#0B0E14',   // Gate Void / Shadow Realm (Ultra Dark Obsidian)
+  card: '#161B22',         // Dungeon Interface / Dark Metal Frame
+  textPrimary: '#E6EDF3',  // System Text / High Contrast Ice White
+  textSecondary: '#6E7681',// Subtext / Muted Steel Grey
+  textOnPrimary: '#FFFFFF',// Clean White on Primary Buttons
+  surface: '#1F242D',      // System Window / Elevated Surface
+  border: '#2A313C',       // Dark Interface Divider
+  shadow: '#000000',       // Deep Shadow Overlay
+  success: '#00F0FF',      // System Quest Clear / Neon Cyan Glow
+  danger: '#FF2A55',       // System Alert / Red Gate Threat
 } as const;
